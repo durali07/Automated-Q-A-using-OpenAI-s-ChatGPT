@@ -13,6 +13,7 @@ Program, aldığı soruların yanı sıra, cevabı sesli olarak söylemek için 
 Bu kod, OpenAI API'sine erişmek için bir API anahtarı gerektirir. Ayrıca, Tesseract'in yüklü olduğu konumun doğru bir şekilde belirtilmesi gerekir. Bu kod, sadece Windows işletim sistemi için test edilmiştir ve Linux işletim sistemlerinde farklı bir yolda Tesseract yüklendiği için düzenleme gerektirebilir.
 
 -----------------------------------------------------------------English--------------------------------------------------------
+
 First, open the command prompt and type the following code.
 pip install pytesseract pillow numpy pynput pyautogui openai SpeechRecognition pydub gtts playsound==1.2.2
 
