@@ -1,5 +1,8 @@
 # Automated-Q-A-using-OpenAI-s-ChatGPT
 önce cmd açın ve aşağıdaki kodu yazın
+
+
+
 pip install pytesseract pillow numpy pynput pyautogui openai SpeechRecognition pydub gtts playsound==1.2.2
 
 Bu kod, Python programlama dili kullanılarak yazılmış bir OpenAI Chatbotu'dur. Bu Chatbot, kullanıcının ekran görüntüsü aldığı sorulara cevap vermek için OpenAI'nın ChatGPT modelini kullanır.
