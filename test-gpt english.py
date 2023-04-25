@@ -40,7 +40,7 @@ while True:
 
     def chtGPT():
         print("panodan alıyor")
-        openai.api_key = "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"
+        openai.api_key = "APİ_KEY"
         messages = [ {"role": "system", "content": 
                     "You are a intelligent assistant."} ]
         message = pyperclip.paste()
@@ -122,7 +122,7 @@ while True:
 
 
     # OpenAI API anahtarını buraya girin
-    openai.api_key = "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"
+    openai.api_key = "APİ_KEY"
     messages = [ {"role": "system", "content": 
               "You are a intelligent assistant."} ]
     message = tum_sorular
